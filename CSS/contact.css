@@ -1,4 +1,4 @@
-/*start of header with nav*/
+/*header with nav*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,7 +28,7 @@ ul {
     font-size: 30px;
     font-family: 'Orbitron', sans-serif;
   }
- /*end of header with nav*/
+
 
 /*style applies to all*/
  * {
@@ -38,6 +38,8 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
   }
+
+
   /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
@@ -55,7 +57,6 @@ ul {
     border: none;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #555;
   }
@@ -74,7 +75,6 @@ ul {
     margin-top: 6px;
     padding: 20px;
   }
-  
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -82,6 +82,39 @@ ul {
     clear: both;
   }
   
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #a7324d;
+  margin-top: 20px;
+}
+.footer p{
+  text-align: center;
+  font-size: small;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
   /* Responsive layout - when the screen is less than 650px wide, 
   make the two columns stack on top of each other instead of next 
   to each other */
