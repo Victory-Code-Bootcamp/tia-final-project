@@ -4,7 +4,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #474e5d;
+    background-color: #a7324d;
     width: 100%;
   }
   li {
@@ -23,14 +23,16 @@ ul {
   .header-section {
     padding: 25px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #a7324d;
     color: white;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
   }
  /*end of header with nav*/
  
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    padding: 20px;
   }
  
   html {
